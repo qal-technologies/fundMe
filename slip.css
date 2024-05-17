@@ -1,0 +1,24 @@
+.slip{
+    align-items: center;
+    place-content: center;
+    height: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper{
+    align-items: center;
+    place-content: center;
+    text-align: center;
+}
+
+.userInfo{
+    font-size: 16px;
+    font-weight: bold;
+    gap: 10px;
+    display: grid;
+}
+
+#account-name, #account-number, #bank-name{
+    font-weight: normal;
+}

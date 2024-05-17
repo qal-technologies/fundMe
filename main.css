@@ -1,0 +1,147 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
+body{
+    transition: all ease-in-out 500ms;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header *{
+    cursor: default;
+}
+
+.logo{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    width: fit-content;
+    padding: 4px;
+    user-select: none;
+    padding-inline: 0;
+    outline: 1px solid rgba(200, 200, 200, 0.5);
+    border-radius: 15px;
+}
+
+.txt-white{
+    padding-right: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.txt-blue{
+    padding-left: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.right{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    display: flex;
+    gap: 10px;
+}
+
+.btn{
+    display: flex;
+    place-content: center;
+    padding: 10px;
+    color: rgb(230, 230, 230);
+    transition: all ease-in-out 400ms;
+    border: 2px solid rgb(225, 225, 225);
+}
+
+.btn:hover, .btn:active{ 
+    padding-inline:10px ;
+    scale: 120%;   
+    border: 2px solid white;
+    color: white;
+}
+
+#main{
+    margin-top: 60px;
+    display: grid;
+    gap: 10px;
+    align-content: center;
+    place-content: center;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.home-main{
+    padding: 30px;
+}
+
+.form-fund{
+    display: flex;
+    place-content: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+form{
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 255, 0.234);
+    border-radius: 10px;
+}
+
+input:focus{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.warning{
+    color: red;
+    font-size: x-small;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    place-content: center;
+}
+
+#transfer{
+    border: none;
+    outline: none;
+    margin: 10px;
+    width: 200px;
+}
+
+.design, .logo-in{
+    padding-bottom: 0px;
+}
+
+.design, .version{
+    display: flex;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    place-content: center;
+    height: max-content;
+    padding: 10px;
+}
+
+.design article{
+    font-size: 1rem;
+    text-align: center;
+    user-select: none;
+}
+
+.version{
+    color: gray;
+    font-size: x-small;
+    font-style: italic;
+}
